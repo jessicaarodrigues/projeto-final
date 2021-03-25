@@ -1,7 +1,6 @@
 package com.projetofinal.projeto.service;
 
-import org.springframework.stereotype.Service;
+import com.projetofinal.projeto.model.Vacina;
 
-@Service
-public class VacinaService {
+public interface VacinaService extends BaseService<Vacina, Long> {
 }

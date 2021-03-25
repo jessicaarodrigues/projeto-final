@@ -6,11 +6,14 @@ import com.projetofinal.projeto.model.Estado;
 import com.projetofinal.projeto.service.EstadoService;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
+
 @RestController
 @RequestMapping("api/estados")
 public class EstadoController {
     private EstadoService estadoService = new EstadoService();
     private final EstadoConverter estadoConverter;
+    private Object estado;
 
     public EstadoController(EstadoConverter estadoConverter) {
         this.estadoConverter = estadoConverter;

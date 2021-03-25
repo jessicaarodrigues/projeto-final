@@ -2,7 +2,6 @@ package com.projetofinal.projeto.controller;
 
 import com.projetofinal.projeto.converter.MunicipioConverter;
 import com.projetofinal.projeto.dto.EstadoDTO;
-import com.projetofinal.projeto.service.EstadoService;
 import com.projetofinal.projeto.service.MunicipioService;
 import org.springframework.web.bind.annotation.*;
 

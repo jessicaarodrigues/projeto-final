@@ -1,7 +1,6 @@
 package com.projetofinal.projeto.service;
 
-import org.springframework.stereotype.Service;
+import com.projetofinal.projeto.model.Municipio;
 
-@Service
-public class MunicipioService {
+public interface MunicipioService extends BaseService<Municipio, Long> {
 }

@@ -1,7 +1,9 @@
 package com.projetofinal.projeto.service;
 
-import org.springframework.stereotype.Service;
+import com.projetofinal.projeto.model.Estado;
 
-@Service
-public class EstadoService {
+public interface EstadoService extends BaseService<Estado, Long{
+
+    Estado findByUF(String uf);
+
 }
